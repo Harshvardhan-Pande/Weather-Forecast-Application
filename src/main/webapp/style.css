@@ -1,0 +1,162 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+  background: #121212;
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: white;
+  margin: 0;
+}
+
+/* Navbar Styling */
+.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: center; /* Center the navbar */
+  align-items: center;
+  padding: 20px 40px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #1e1e1e;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  z-index: 10;
+  border-bottom: 2px solid #00ff99;
+}
+
+/* Navbar Left */
+.navbar-left h1 {
+  font-size: 28px;
+  color: #00ff99;
+  font-weight: bold;
+  letter-spacing: 2px;
+  transition: color 0.3s ease;
+}
+
+.navbar-left h1:hover {
+  color: #1effb3;
+}
+
+
+.navbar-center {
+  display: flex;
+  justify-content: center;
+  flex-grow: 1;
+}
+
+/* Search Container */
+.search-container {
+  position: relative;
+  width: 400px;
+  height: 55px;
+}
+
+/* Input Field Styling */
+input[type="text"] {
+  width: 100%;
+  height: 100%;
+  padding: 18px;
+  border: 2px solid #00ff99;
+  border-radius: 50px;
+  background-color: #1e1e1e;
+  color: #fff;
+  font-size: 18px;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+input[type="text"]:focus {
+  border-color: #1effb3;
+  box-shadow: 0 0 12px rgba(0, 255, 153, 0.6);
+}
+
+/* Button Styling with Futuristic Animation */
+.search-btn {
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  transform: translateY(-50%);
+  padding: 15px 25px;
+  background-color: #00ff99;
+  border: none;
+  border-radius: 50px;
+  color: #121212;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+  box-shadow: 0 0 15px rgba(0, 255, 153, 0.6), 0 0 25px rgba(0, 255, 153, 0.3);
+}
+
+.search-btn:hover {
+  background-color: #00e6b8;
+  transform: scale(1.1) translateY(-5px);
+  box-shadow: 0 0 20px rgba(0, 255, 153, 0.6), 0 0 30px rgba(0, 255, 153, 0.3);
+}
+
+.search-btn:active {
+  transform: scale(1) translateY(0);
+  box-shadow: 0 0 12px rgba(0, 255, 153, 0.6), 0 0 20px rgba(0, 255, 153, 0.3);
+}
+
+input[type="text"]:focus + .search-btn {
+  background-color: #1effb3;
+}
+
+/* Navbar Links Styling */
+.navbar-right {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navbar-links {
+  display: flex;
+  gap: 30px;
+}
+
+.navbar-links li {
+  list-style-type: none;
+}
+
+.navbar-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+  transition: color 0.3s ease, border-bottom 0.3s ease;
+  padding-bottom: 5px;
+  position: relative;
+}
+
+.navbar-links a:hover {
+  color: #00ff99;
+  border-bottom: 2px solid #00ff99;
+}
+
+/* Hover Effect for Navbar */
+.navbar-links a::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: #00ff99;
+  bottom: 0;
+  left: 0;
+  transform: scaleX(0);
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.navbar-links a:hover::before {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
