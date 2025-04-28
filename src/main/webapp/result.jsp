@@ -75,7 +75,7 @@
             cursor: not-allowed; /* Change cursor to not-allowed to indicate read-only */
         }
 
-        /* Hover effect on inputs */
+
         .form-group input:hover {
             border-color: #00cc66;
         }
@@ -151,12 +151,12 @@
 
             <!-- Sixth row: Sunrise and Sunset -->
             <div class="form-group">
-                <label for="sunrise">Sunrise (Timestamp)</label>
+                <label for="sunrise">Sunrise</label>
                 <input type="text" id="sunrise" name="sunrise" value="<%= request.getAttribute("sunrise") %>" readonly>
             </div>
 
             <div class="form-group">
-                <label for="sunset">Sunset (Timestamp)</label>
+                <label for="sunset">Sunset</label>
                 <input type="text" id="sunset" name="sunset" value="<%= request.getAttribute("sunset") %>" readonly>
             </div>
         </form>
