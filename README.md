@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # WeatherForecastApp 🌦️
 
 Welcome to **WeatherForecastApp**! This Java-based weather forecasting application allows users to get real-time weather data by retrieving information from an external weather API. It provides essential weather details such as temperature, humidity, wind speed, pressure, and more, for any given location.
@@ -104,6 +105,8 @@ Thanks for checking out **WeatherForecastApp**! Stay updated with the weather at
 =======
 =======
 >>>>>>> 1aa78c48c66a9ad23568fae6060a05aa47b50715
+=======
+>>>>>>> 3e47ffca771ea9960c1262cb4f555fd741cc8061
 🌦️ Weather Forecast Application
 
 A dynamic Weather Forecast web application built using Java (Servlets, JSP) for the backend and HTML/CSS for the frontend.
@@ -134,18 +137,26 @@ It fetches real-time weather data using a weather API and displays user-friendly
 
     Weather API 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 1aa78c48c66a9ad23568fae6060a05aa47b50715
+=======
+
+>>>>>>> 3e47ffca771ea9960c1262cb4f555fd741cc8061
     ⚙️ How to Run the Project
 
     Clone the repository:
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 git clone https://github.com/this-username/this-repo-name.git
 =======
 git clone https://github.com/your-username/your-repo-name.git
 >>>>>>> 1aa78c48c66a9ad23568fae6060a05aa47b50715
+=======
+git clone https://github.com/your-username/your-repo-name.git
+>>>>>>> 3e47ffca771ea9960c1262cb4f555fd741cc8061
 
 Open the project in your favorite IDE (like Eclipse/IntelliJ).
 
@@ -155,8 +166,11 @@ Configure your API key inside the project (if needed).
 
 Run the application and access it via http://localhost:8080/WeatherForecastApp/.
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> fd442e3995a13ad440438a0f8d2abc243f828cbe
 =======
+=======
+>>>>>>> 3e47ffca771ea9960c1262cb4f555fd741cc8061
 
 🤝 Contributing
 
@@ -164,9 +178,16 @@ Pull requests are welcome!
 For major changes, please open an issue first to discuss what you would like to change.
 ✨ Acknowledgments
 
+<<<<<<< HEAD
     OpenWeatherMap API (or your API source)
+=======
+    OpenWeatherMap API
+>>>>>>> 3e47ffca771ea9960c1262cb4f555fd741cc8061
 
     Java Servlet & JSP documentation
 
     Frontend inspirations
+<<<<<<< HEAD
 >>>>>>> 1aa78c48c66a9ad23568fae6060a05aa47b50715
+=======
+>>>>>>> 3e47ffca771ea9960c1262cb4f555fd741cc8061
