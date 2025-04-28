@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # WeatherForecastApp 🌦️
 
 Welcome to **WeatherForecastApp**! This Java-based weather forecasting application allows users to get real-time weather data by retrieving information from an external weather API. It provides essential weather details such as temperature, humidity, wind speed, pressure, and more, for any given location.
@@ -101,6 +102,8 @@ Feel free to reach out to me for any questions or suggestions:
 
 Thanks for checking out **WeatherForecastApp**! Stay updated with the weather at all times! ☀️🌧️❄️
 =======
+=======
+>>>>>>> 1aa78c48c66a9ad23568fae6060a05aa47b50715
 🌦️ Weather Forecast Application
 
 A dynamic Weather Forecast web application built using Java (Servlets, JSP) for the backend and HTML/CSS for the frontend.
@@ -130,11 +133,19 @@ It fetches real-time weather data using a weather API and displays user-friendly
     CSS3
 
     Weather API 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 1aa78c48c66a9ad23568fae6060a05aa47b50715
     ⚙️ How to Run the Project
 
     Clone the repository:
 
+<<<<<<< HEAD
 git clone https://github.com/this-username/this-repo-name.git
+=======
+git clone https://github.com/your-username/your-repo-name.git
+>>>>>>> 1aa78c48c66a9ad23568fae6060a05aa47b50715
 
 Open the project in your favorite IDE (like Eclipse/IntelliJ).
 
@@ -143,4 +154,19 @@ Set up your server (Apache Tomcat recommended).
 Configure your API key inside the project (if needed).
 
 Run the application and access it via http://localhost:8080/WeatherForecastApp/.
+<<<<<<< HEAD
 >>>>>>> fd442e3995a13ad440438a0f8d2abc243f828cbe
+=======
+
+🤝 Contributing
+
+Pull requests are welcome!
+For major changes, please open an issue first to discuss what you would like to change.
+✨ Acknowledgments
+
+    OpenWeatherMap API (or your API source)
+
+    Java Servlet & JSP documentation
+
+    Frontend inspirations
+>>>>>>> 1aa78c48c66a9ad23568fae6060a05aa47b50715
