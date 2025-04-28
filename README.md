@@ -1,7 +1,12 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
-# WeatherForecastApp 🌦️
+# WeatherForecastApp 
+
+--->Scrren Shots
+🌦️https://github.com/Harshvardhan-Pande/Weather-Forecast-Application/blob/main/images/project1.png
+🌦️https://github.com/Harshvardhan-Pande/Weather-Forecast-Application/blob/main/images/project2.png
+<----
 
 Welcome to **WeatherForecastApp**! This Java-based weather forecasting application allows users to get real-time weather data by retrieving information from an external weather API. It provides essential weather details such as temperature, humidity, wind speed, pressure, and more, for any given location.
 
